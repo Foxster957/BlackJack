@@ -263,7 +263,7 @@ public static class Methods
       Blackjack.youBst = false;
     }
 
-    if(TotalValue(Blackjack.dlCards) == 21) // The dealer got bust
+    if(TotalValue(Blackjack.dlCards) >= 22) // The dealer got bust
     {
       Blackjack.dlrBst = true;
     }
